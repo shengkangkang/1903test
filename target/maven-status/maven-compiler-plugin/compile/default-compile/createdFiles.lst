@@ -1,0 +1,8 @@
+com\xcy\local\utils\JsonUtils.class
+com\xcy\local\service\impl\localCitiesServiceImpl.class
+com\xcy\local\dao\localCitiesMapper.class
+com\xcy\local\utils\JedisClientPool.class
+com\xcy\local\controller\localCitiesController.class
+com\xcy\local\service\localCitiesService.class
+com\xcy\local\utils\JedisClient.class
+com\xcy\local\pojo\localCities.class

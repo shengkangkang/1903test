@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--将要实现的service类配置在该处-->
+
+   <!-- <bean id="adminService" class="com.qfedu.ssm.service.impl.AdminServiceImpl"/>
+    <bean id="videoService" class="com.qfedu.ssm.service.impl.VideoServiceImpl"/>
+    <bean id="speakerService" class="com.qfedu.ssm.service.impl.SpeakerServiceImpl"/>
+    <bean id="courseService" class="com.qfedu.ssm.service.impl.CourseServiceImpl"/>
+    <bean id="subjectService" class="com.qfedu.ssm.service.impl.SubjectServiceImpl"/>-->
+    <!--通过该配置，可以扫描一个包及其子包下，所有@Controller,@Service,@xxxx 注解-->
+   <!-- <context:component-scan base-package="com.qfedu.ssm.controller"/>-->
+    <context:component-scan base-package="com.xcy.local.service.impl"/>
+
+
+
+</beans>
